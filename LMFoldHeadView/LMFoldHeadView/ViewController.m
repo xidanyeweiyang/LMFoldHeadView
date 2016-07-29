@@ -31,7 +31,9 @@
     self.title = @"LMFoldHeadView";
     
     //假数据  随便填
-    self.dateArray = @[@"折叠内容关键点一:KVC动态记录折叠状态",@"折叠内容关键点二:代理熟练使用",@"折叠内容关键点三:属性的灵活运用"];
+    self.dateArray = @[@"折叠内容关键点一:KVC动态记录折叠状态",
+                       @"折叠内容关键点二:代理熟练使用",
+                       @"折叠内容关键点三:属性的灵活运用"];
     
     for (int i = 0; i< self.dateArray.count; i++) {
         
